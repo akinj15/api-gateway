@@ -5,23 +5,19 @@
     - rotas
     - credenciais 
         - credenciais de cada micro servico ex JSON contendo endereco do BD e credenciais, de acordo com cada cliente
-        - ```json 
+        - ```json
             {
-                cliente : {
-                    cnpj : 111.1111.111/000-1,
-                    acessos: [
+                "cliente" : {
+                    "name" : "cnpj || cpf || email ",
+                    "acessos": [
                         {
-                            servico: {
-                                nome: servico,
-                                enderecoAPI: url,
-                                apiToken: ""
-                            },
-                            banco: "",
-                            bancoToken: ""
-                            
+                            "servico": {
+                                "nome": "servico",
+                                "apiToken": "informed API TOKEN"
+                            }
                         }
-                    ],
-                },
+                    ]
+                }
 
             }
             ```
