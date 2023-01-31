@@ -4,7 +4,7 @@
 - [ ] deve conter os cadastros dos micro servicos
     - rotas
         * GET /api/v1/credentials/:id
-            - ```javascript
+            ```javascript
                 {
                     "user_id": "sha",
                     "authorization" : "token" // talvez necessario
@@ -25,7 +25,7 @@
                 }
             ```
         * GET /api/v1/list-users
-            - ```javascript
+            ```javascript
                 {
                     "user_id": "sha",
                     "authorization" : "token" // talvez necessario
@@ -43,11 +43,10 @@
                             }
                         ]
                     }
-
                 }
             ```            
         * POST /api/v1/create
-            - ```javascript
+            ```javascript
                 {
                     "user": "cnpj || cpf || email",
                     "authorization" : "token", // talvez necessario
@@ -61,7 +60,7 @@
                 }
             ```
         * PUT /api/v1/cliente/:id
-            - ```javascript
+            ```javascript
                 {
                     "user_id": "sha",
                     "authorization" : "token", // talvez necessario
@@ -75,7 +74,7 @@
                 }
             ```
         * DELETE /api/v1/cliente/:id
-            - ```javascript
+            ```javascript
                 {
                     "user_id": "sha",
                     "authorization" : "token", // talvez necessario
